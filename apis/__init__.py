@@ -8,4 +8,5 @@ def create_app():
         title='个人网站',
         description='我的个人网站'
     )
+
     return app
