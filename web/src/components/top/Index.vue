@@ -1,6 +1,6 @@
 <template>
   <div class="top">
-    bottom
+    top
   </div>
 </template>
 
