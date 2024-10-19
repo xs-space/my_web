@@ -1,5 +1,7 @@
 from fastapi import FastAPI
 
+from apis.routers import router
+
 
 def create_app():
     app = FastAPI(
@@ -9,4 +11,5 @@ def create_app():
         description='我的个人网站'
     )
 
+    app.include_router(router)
     return app
